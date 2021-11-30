@@ -1,0 +1,53 @@
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  padding: 40px;
+}
+
+.containerform {
+  background-color: #161616;
+  margin: auto;
+  width: 30%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.forminput {
+  margin: auto;
+  margin-bottom: 15px;
+  border: 2px solid rgb(219, 219, 219);
+  border-radius: 5px;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  background-color: #5a5a5a;
+  color: white;
+  padding: 8px;
+}
+.btn {
+  width: 100%;
+  height: 38px;
+  color: white;
+  background-color: #af2e1c;
+  margin-bottom: 20px;
+}
+
+.close {
+  color: rgb(252, 252, 252);
+  font-size: 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 89%;
+  text-align: center;
+}
+
+.gender {
+  color: #868686;
+}

@@ -3,18 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.4.1",
+    "@react-pdf-viewer/thumbnail": "^2.11.0",
+    "@react-pdf/renderer": "^2.0.21",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "jspdf": "^2.4.0",
+    "pdfjs-dist": "^2.6.347",
     "react": "^17.0.2",
+    "react-avatar": "^4.0.0",
     "react-dom": "^17.0.2",
+    "react-pdf": "^5.5.0",
+    "react-read-pdf": "^2.0.9",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }

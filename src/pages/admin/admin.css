@@ -1,0 +1,40 @@
+.container-admin {
+  padding: 40px 120px 0 120px;
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  height: 100vh;
+}
+
+.tableadmin {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(253, 251, 251);
+  color: rgb(66, 66, 66);
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.btnapprove {
+  color: white;
+  padding: 3px 10px 3px 10px;
+  background-color: rgb(14, 231, 43);
+  border-radius: 5px;
+}
+.btncancel {
+  color: white;
+  padding: 3px 10px 3px 10px;
+  background-color: rgb(255, 49, 49);
+  border-radius: 5px;
+}
+
+.filebook {
+  color: blue;
+}
+.imgapp {
+  margin: auto;
+  width: 19px;
+}
+.datas {
+  height: 40px;
+}
